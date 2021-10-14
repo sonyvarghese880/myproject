@@ -1,0 +1,406 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony Varghese Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+    <!-- Update these with your own fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/style2.css">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+
+
+</head>
+<style>
+    header[role="banner"] #navbar-primary.navbar-default {
+        background: #FFFFFF;
+        border: none;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    #navbar-primary.navbar-default .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar-primary.navbar-default .navbar-nav>li {
+        display: inline-block;
+        float: none;
+    }
+
+    #navbar-primary.navbar-default .navbar-nav>li>a {
+        padding-left: 30px;
+        padding-right: 30px;
+        color: rgb(88, 85, 85);
+        font-weight: bold;
+        font-size: x-large;
+        text-decoration: none;
+    }
+
+    /* .content {
+  padding: 1px;
+} */
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0%
+    }
+
+    /* .sticky + .content {
+  padding-top: 10px;
+} */
+</style>
+
+<header role="banner" id="myHeader" style="background-color: #FFFFFF">
+    <!-- <img id="logo-main" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo"> -->
+    <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div> -->
+            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#work">Contact me</a></li>
+                    <!-- <li><a href="#">Link</a></li> -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header><!-- header role="banner" -->
+
+<body>
+
+
+
+    <div class="content">
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+
+                Hi, I am <br /> Sony Varghese
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> Python developer</p>
+            <img src="/static/img/me2.jpg" alt=".." class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <!-- <section class="my-services" id="services">
+       <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Python Developer</h3>
+                <p style="font-family:'Source Code Pro', monospace">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div> 
+            <div class="service">
+                <h3>Front end Design + Development</h3>
+                <p style="font-family:'Source Code Pro', monospace">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div> 
+            <div class="service">
+                <h3>Data Engineer</h3>
+                <p style="font-family:'Source Code Pro', monospace">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div> 
+        </div> 
+
+        <a href="#work" class="btn">My Work</a>
+    </section> -->
+
+
+
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+
+            
+    <!-- <p style="font-family:'Source Code Pro', monospace">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+    <!-- <div class="services">
+            <div class="grid-item">
+                <h3>Python </h3>
+                
+                
+            </div> 
+            <div class="grid-item">
+                <h3>Front end Design + Development</h3>
+                
+            </div> 
+            <div class="grid-item">
+                <h3>Django</h3>
+                
+            </div> 
+
+            <div class="grid-item">
+                <h3>API</h3>
+                
+            </div> 
+
+            <div class="grid-item">
+                <h3>Html/CSS/Bootstrap </h3>
+                
+            </div> 
+
+            <div class="grid-item">
+                <h3>Django</h3>
+                
+            </div> 
+
+            <div class="grid-item">
+                <h3>Data Analytics</h3>
+                
+            </div> 
+
+            <div class="grid-item">
+                <h3>Java/C/ C++  </h3>
+                
+            </div> 
+            <div class="grid-item">
+                <h3>Visual Studio </h3>
+                
+            </div> 
+            <div class="grid-item">
+                <h3>MySQL  </h3>
+                
+            </div> 
+            <div class="grid-item">
+                <h3>Postgres</h3>
+                
+            </div> 
+            <div class="grid-item">
+                <h3>Pandas/Numpy/Matplotlib </h3>
+                
+            </div> 
+            <div class="grid-item">
+                <h3>Natural Language Processing</h3>
+                
+            </div> 
+
+            <div class="grid-item">
+                <h3>Jupyter Notebook </h3>
+                
+            </div> 
+        </div>  -->
+
+
+
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3>Python </h3>
+
+
+        </div>
+        <div class="grid-item">
+            <h3>Front-end Design+Development</h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3>Data Analytics</h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3>Django</h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3>API</h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3>Html/CSS/Bootstrap </h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3> Flask </h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3>Java/C/ C++ </h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>Visual Studio </h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>MySQL </h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>Postgres</h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>Pandas </h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>Matplotlib </h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>Numpy </h3>
+
+        </div>
+        <div class="grid-item">
+            <h3>Natural Language Processing</h3>
+
+        </div>
+
+        <div class="grid-item">
+            <h3>Jupyter Notebook </h3>
+
+        </div>
+    </div>
+
+    <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Toronto</p>
+
+        <div class="about-me__body">
+            <p style="font-family:'Source Code Pro', monospace">I am a web developer and python programmer living in
+                Markham, Canada. Completed my engineering degree in ‘Information Technology’ and Post Graduate Course in
+                ‘Big Data Analytics’.
+                I have four years of work experience as a python developer and I’m comfortable developing on front end
+                as well as back end.</p>
+            <p style="font-family:'Source Code Pro', monospace"> </p>
+        </div>
+
+        <img src="/static/img/me.jpg" alt="Another image of me" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry4.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry3.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry2.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry3.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry3.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry2.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="/static/img/bgtry2.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 08 -->
+            <a href="#" class="portfolio__item">
+                <img src="/static/img/bgtry4.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 09 -->
+            <a href="#" class="portfolio__item">
+                <img src="/static/img/bgtry4.jpeg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 0 0-->
+            <a href="#" class="portfolio__item">
+                <img src="/static/img/bgtry4.jpeg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:sonyvarghese880@gmail.com" class="footer__link">sonyvarghese880@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="/static/js/index.js"></script>
+    </div>
+</body>
+
+</html>
